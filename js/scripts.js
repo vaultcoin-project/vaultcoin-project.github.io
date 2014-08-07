@@ -15,8 +15,8 @@ $('body').scrollspy({ target: '#navbar' })
 
 function download_for_os() {
     var file;
-    if (navigator.appVersion.indexOf("Win")!=-1) file="vaultcoin-1.0.1-win32.zip";
-    else if (navigator.appVersion.indexOf("Mac")!=-1) file="vaultcoin-1.0.1-macosx.zip";
+    if (navigator.appVersion.indexOf("Win")!=-1) file="vaultcoin-1.0.2-win32.zip";
+    else if (navigator.appVersion.indexOf("Mac")!=-1) file="vaultcoin-1.0.2-macosx.zip";
     else file="https://github.com/vaultcoin-project/vaultcoin";
 
     window.location.href = file;
